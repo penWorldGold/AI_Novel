@@ -1,0 +1,8 @@
+output/
+├── chapters/          # 分割后的章节文件
+├── stage1_summaries/  # 章节摘要文件
+├── stage2_blocks/     # 分块结果
+├── stage3_plots/      # 情节块摘要
+├── stage4_outline/    # 全书大纲
+├── terminology.json   # 术语表
+└── story_graph.png    # 故事脉络图

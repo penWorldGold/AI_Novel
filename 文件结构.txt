@@ -1,0 +1,29 @@
+novel_analyzer/
+├── main.py
+├── config_manager.py
+├── file_processor.py
+├── api_handler.py
+├── api_rate_limiter.py
+├── analyzers/
+│   ├── base_analyzer.py
+│   ├── chapter_splitter.py
+│   ├── stage1_summary_analyzer.py
+│   ├── stage2_block_analyzer.py
+│   ├── stage3_plot_analyzer.py
+│   ├── stage4_outline_analyzer.py
+│   └── visualization.py
+└── ui/
+    ├── app.py
+    ├── components/
+    │   ├── file_settings.py
+    │   ├── api_settings.py
+    │   ├── progress_log.py
+    │   └── graph_view.py
+    └── tabs/
+        ├── base_tab.py
+        ├── chapter_split_tab.py
+        ├── stage1_summary_tab.py
+        ├── stage2_block_tab.py
+        ├── stage3_plot_tab.py
+        ├── stage4_outline_tab.py
+        └── visualization_tab.py
